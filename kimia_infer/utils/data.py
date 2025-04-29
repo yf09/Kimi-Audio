@@ -51,7 +51,7 @@ class KimiAContent:
             torch.tensor([self.text_token_ids], dtype=torch.long),
             torch.tensor([self.is_continuous_mask], dtype=torch.bool),
         )
-
+    // aaaa
     def is_valid(self):
         return (
             len(self.audio_token_ids)
